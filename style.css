@@ -1,0 +1,92 @@
+body{
+    background-color: lightseagreen;
+    margin-left: 0px;
+}
+header{
+    margin-left: calc(18.5vh + 8px);
+}
+header h1{
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 0px;
+    margin-bottom: 0.5vh;
+}
+header h2{
+    margin-top: 0.5vh;
+    text-align: center;
+    font-size: 3vh;
+}
+nav{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+nav ul{
+    float: left;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+    display: inline-block;
+    width: 21vh;
+    font-size: 3.33vh;
+    padding:0.95vh;
+    text-align: center;
+    background-color: red;
+    border: 0.7vh outset gray;
+    border-top-right-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    animation-duration: 10s;
+    background-color: hsl(0, 100%, 40%);
+    border: 0.7vh inset gray;
+    padding-right: 2vh;
+}
+#firstnav{
+    margin-top: 0px;
+}
+nav li{
+    display: imline-block;
+}
+#img1_1{
+    height: 50vh;
+    margin: 5vh;
+    float: right;
+}
+li::marker{
+    font-size: 2.5vh;
+}
+#mapa_article_1{
+    padding-top: 4vh;
+}
+#mapa_article_1 ul{
+    padding-left: 3vh;
+    display: inline-block;
+    width: 70vh;
+}
+#mapa_article_1 h3{
+    font-size: 4vh;
+    margin-bottom: 0vh;
+}
+#mapa_article_1 p{
+    font-size: 2.5vh;
+}
+#euroregiony{
+    float: right;
+
+}
+main{
+    margin-left: calc(8px + 25vh);
+}
+
+
+
+#img2_1{
+    float: left;
+    height: 70vh;
+    margin-right: 5vh;
+}
