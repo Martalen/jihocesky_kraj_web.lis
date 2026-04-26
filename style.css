@@ -40,11 +40,16 @@ nav a{
     color: black;
     text-decoration: none;
 }
+#current_link{
+    background-color: hsl(31, 100%, 50%);
+}
 nav a:hover{
-    animation-duration: 10s;
     background-color: hsl(0, 100%, 40%);
     border: 0.7vh inset gray;
     padding-right: 2vh;
+}
+#current_link:hover{
+    background-color: hsl(31, 100%, 40%);
 }
 #firstnav{
     margin-top: 0px;
@@ -53,7 +58,7 @@ nav li{
     display: imline-block;
 }
 #img1_1{
-    height: 50vh;
+    height: 40vh;
     margin: 5vh;
     float: right;
 }
@@ -66,7 +71,7 @@ li::marker{
 #mapa_article_1 ul{
     padding-left: 3vh;
     display: inline-block;
-    width: 70vh;
+    width: 60vh;
 }
 #mapa_article_1 h3{
     font-size: 4vh;
@@ -87,6 +92,113 @@ main{
 
 #img2_1{
     float: left;
-    height: 70vh;
+    height: 46vh;
     margin-right: 5vh;
+}
+#img2_2{
+    height: 46vh;
+    margin-top: 4vh;
+    float: right;
+    margin-right: 20vh;
+}
+#povrch_article_1{
+    padding-top: 4vh;
+    font-size: 2.5vh;
+}
+#povrch_article_1 ol{
+    margin-left: 70vh;
+}
+#povrch_article_2{
+    margin-top: 16vh;
+    font-size: 2.5vh;
+}
+
+
+
+#img3_1{
+    height: 60vh;
+    float: left;
+}
+#podnebi_article_1{
+    margin-left: calc(86vh + 8px);
+    padding-top: 2vh;
+    font-size: 2.5vh;
+}
+#podnebi_article_2{
+    margin-top: 32vh;
+    font-size: 2.5vh;
+}
+#podnebi_article_2 h3{
+    font-size: 4vh;
+    margin-bottom: 0vh;
+}
+#podnebi_article_2 h4{
+    margin-top: 2vh;
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+
+
+
+#img4_1{
+    height: 67vh;
+    float: right;
+    margin: 4vh;
+}
+#vodstvo_article_1{
+    font-size: 2.5vh;
+    padding-top: 6vh;
+}
+#vodstvo_article_1 ul{
+    padding-left: 2vh;
+}
+#vodstvo_article_2{
+    font-size: 2.5vh;
+}
+#vodstvo_article_2 h3{
+    font-size: 4vh;
+    margin-bottom: 1vh;
+}
+
+
+
+#chko_article_1{
+    font-size: 2.5vh;
+}
+#chko_article_1 h3{
+    font-size: 4vh;
+    margin-bottom: 1vh;
+}
+#chko_article_1 h4{
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+.bez_tecky{
+    list-style-type: none;
+}
+#custom_5_1{
+    float:right;
+    margin-right: 30vh;
+    margin-top: 8vh;
+}
+
+
+
+#obyvatelstvo_article_1{
+    margin-left: 2vh;
+    float: left;
+    font-size: 2.5vh;
+}
+#obyvatelstvo_article_1 ul{
+    padding-left: 2vh;
+}
+#img6_1{
+    height: 40vh;
+}
+#img6_2{
+    height: 50vh;
+}
+#obyvatelstvo_article_2{
+    margin-left: 95vh;
+    font-size: 2.5vh;
 }
